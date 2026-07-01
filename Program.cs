@@ -33,7 +33,7 @@
 
             
 
-            */
+            
              //task3 
             Console.Write("Enter a whole number: ");
             int number = Convert.ToInt32(Console.ReadLine());
@@ -46,6 +46,7 @@
             {
                 Console.WriteLine(number + " is Odd");
             }
+            */
 
             ///////////////
             //task4 
