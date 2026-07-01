@@ -15,7 +15,7 @@
             Console.WriteLine("Height: " + height);
             Console.WriteLine("Student: " + isStudent);
 
-            Console.WriteLine();
+           
 
 
             //  Task 2 - Rectangle Calculator 
@@ -31,7 +31,7 @@
             Console.WriteLine("Area: " + area);
             Console.WriteLine("Perimeter: " + perimeter);
 
-            Console.WriteLine();
+            
 
             */
              //task3 
@@ -47,8 +47,23 @@
                 Console.WriteLine(number + " is Odd");
             }
 
-            Console.WriteLine();
+            ///////////////
+            //task4 
+            Console.Write("Enter your age: ");
+            int voterAge = Convert.ToInt32(Console.ReadLine());
 
+            Console.Write("Do you have a valid national ID? (yes/no): ");
+            string idAnswer = Console.ReadLine()!;
+            bool hasValidId = (idAnswer == "yes");
+
+            if (voterAge >= 18 && hasValidId)
+            {
+                Console.WriteLine("You are eligible to vote.");
+            }
+            else
+            {
+                Console.WriteLine("You are NOT eligible to vote.");
+            }
         }
     }
 }
