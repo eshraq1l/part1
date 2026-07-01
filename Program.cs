@@ -17,7 +17,7 @@
 
             Console.WriteLine();
 
-*/
+
             //  Task 2 - Rectangle Calculator 
             Console.Write("Enter rectangle length: ");
             double length = Convert.ToDouble(Console.ReadLine());
@@ -30,6 +30,22 @@
 
             Console.WriteLine("Area: " + area);
             Console.WriteLine("Perimeter: " + perimeter);
+
+            Console.WriteLine();
+
+            */
+             //task3 
+            Console.Write("Enter a whole number: ");
+            int number = Convert.ToInt32(Console.ReadLine());
+
+            if (number % 2 == 0)
+            {
+                Console.WriteLine(number + " is Even");
+            }
+            else
+            {
+                Console.WriteLine(number + " is Odd");
+            }
 
             Console.WriteLine();
 
