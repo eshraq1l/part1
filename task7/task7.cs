@@ -21,17 +21,17 @@ namespace part1.task7
                 if (movieAge >= 0 && movieAge <= 12)
                 {
                     category = "Child";
-                    price = 2.000;
+                    price = 3.000;
                 }
                 else if (movieAge >= 13 && movieAge <= 59)
                 {
                     category = "Adult";
-                    price = 5.000;
+                    price = 7.000;
                 }
                 else
                 {
                     category = "Senior";
-                    price = 3.000;
+                    price = 5.000;
                 }
 
                 Console.WriteLine("Category: " + category);
